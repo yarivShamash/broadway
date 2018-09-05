@@ -3,12 +3,43 @@ html{
   font-family: helvetica, sans-serif;
 }
 
-.header{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-}
-
 h1{
   font-size: 70px;
   font-weight: bold;
   color: white;
+}
+
+a{
+  font-size: 18px;
+  color: white;
+}
+
+h2{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 14px;
+}
+
+.footer{
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+/*tried to insert background image both localy and through the internt but it
+didn't load*/
+#header{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+
+#about{
+  font-size: 32px;
+}
+
+#NY{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  color: white;
+  font-weight: bold;
 }
